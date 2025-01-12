@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <title>Массовый подбор линейного персонала | Staffjet - Staffjet</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -44,12 +44,14 @@
                 <lottie-player src="https://gist.githubusercontent.com/Mastermind2000-dev/30ef7ffac9156f43134439ad413e57db/raw/2e6be5183f80158c09c7817e81122d830f67b09a/line1.json" background="transparent" speed="1" style="width: 100%; height: 100%;" loop="" autoplay=""></lottie-player>
             </div>
             <div class="banner__links df">
-                <a href="index.html" class="banner__link">
-                    <lottie-player src="https://gist.githubusercontent.com/Mastermind2000-dev/d0a5c5ace1da1e4f613d97a76011d348/raw/9680bb8fcca157843a9e837de53d13c27c9b8ce0/button1.json" background="transparent" speed="1" style="width: 100%; height: 100%;" loop="" autoplay=""></lottie-player>
-                </a>
+
                 <a href="klient.html" class="banner__link">
                     <lottie-player src="https://gist.githubusercontent.com/Mastermind2000-dev/173d4e908f7bda3a4d50fe7eeb64733c/raw/181ae607b055c1c34f2c2e56bb8224b92f717217/button2.json" background="transparent" speed="1" style="width: 100%; height: 100%;" loop="" autoplay=""></lottie-player>
                 </a>
+                <a href="index.html" class="banner__link">
+                    <lottie-player src="https://gist.githubusercontent.com/Mastermind2000-dev/d0a5c5ace1da1e4f613d97a76011d348/raw/9680bb8fcca157843a9e837de53d13c27c9b8ce0/button1.json" background="transparent" speed="1" style="width: 100%; height: 100%;" loop="" autoplay=""></lottie-player>
+                </a>
+
             </div>
             <div class="banner__img">
                 <div class="banner__img--blik-left">
@@ -72,9 +74,49 @@
         </div>
 
     </section>
-    <section class=" clients df f-column a-center">
+    <section class="about df f-column a-center" id="about">
+        <h2 class="about__title" id="about__title">О нас в цифрах</h2>
+        <div class="about__content df j-center">
+            <div class="about__left">
+                <div class="about__item"  id="about__item1" data-aos="fade-left"
+                     data-aos-anchor="#about__title"
+                     data-aos-offset="300"
+                     data-aos-duration="500">
+                    <div class="about__item--count">600+</div>
+                    <div class="about__item--text">вебмастеров</div>
+                </div>
+                <div class="about__item" id="about__item2"  data-aos="fade-left"
+
+                     data-aos-offset="400"
+                     data-aos-duration="500">
+                    <div class="about__item--count">500 000+</div>
+                    <div class="about__item--text">откликов ежемесячно</div>
+                </div>
+                <div class="about__item"  id="about__item3"
+                     data-aos="fade-left"
+
+                     data-aos-offset="400"
+                     data-aos-duration="500">
+                    <div class="about__item--count">150 000+</div>
+                    <div class="about__item--text">подходящих под ваши <br> требования анкет</div>
+                </div>
+                <div class="about__item"  id="about__item4"
+                     data-aos="fade-left"
+
+                     data-aos-offset="400"
+                     data-aos-duration="500">
+                    <div class="about__item--count">100 000+</div>
+                    <div class="about__item--text">кандидатов готовых работать <br> в вашей компании</div>
+                </div>
+            </div>
+            <div id="about__right" class="about__right" data-aos="fade-left">
+                <img src="images/tild3264-3233-4638-a661-393630356236__orange-w2.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class=" clients df f-column a-center" id="clients" name="clients">
         <h2 class="clients__title">Заказчикам</h2>
-        <div class="clients__content df j-center">
+        <div class="clients__content df">
         <div class="clients__left">
             <div class="clients__item">
                 <div class="clients__item--img"><img src="images/tild6366-3865-4533-b266-623664393037__1.png" alt=""></div>
@@ -124,77 +166,8 @@
             </div>
         </div>
         <div class="clients__right">
-            <img src="images/tild6264-6436-4935-b737-613039346565__space-ship_1.png" alt="">
+            <img id="client-img" src="images/tild6264-6436-4935-b737-613039346565__space-ship_1.png" alt="">
         </div>
-        </div>
-    </section>
-    <section class="webmaster df f-column a-center">
-        <h2 class="webmaster__title">Вебмастерам</h2>
-        <div class="webmaster__content df j-center a-center">
-            <div class="webmaster__content--left">
-                <div class="webmaster__item">
-                    <h4 class="webmaster__item--title">Эксклюзивы по офферам</h4>
-                    <p class="webmaster__item--text">
-                        У нас всегда есть эксклюзивные
-                        офферы с высокими ставками.
-                        <br>
-                        Гео по России и СНГ
-                    </p>
-                </div>
-                <div class="webmaster__item">
-                        <h4 class="webmaster__item--title">Креативы</h4>
-                    <p class="webmaster__item--text">
-                        Наши дизайнеры создают креативы и лендинги под каждый оффер.
-                        <br>
-                        ебе остаётся только разместить
-                        партнёрскую ссылку
-                    </p>
-                </div>
-                <div class="webmaster__item">
-                    <h4 class="webmaster__item--title">Индивидуальность</h4>
-                    <p class="webmaster__item--text">
-                        Мы предлагаем нашим партнёрам
-                        уникальные акции и розыгрыши,
-                        которые позволяют им зарабатывать
-                        и получать приятные бонусы
-                    </p>
-                </div>
-
-            </div>
-            <div class="webmaster__content--center">
-
-                    <img class="webmaster__img" src="images/tild3764-6332-4430-b164-623830626562__space-station.png" alt="">
-
-            </div>
-            <div class="webmaster__content--right">
-                <div class="webmaster__item">
-                    <h4 class="webmaster__item--title"> Бесплатное обучение</h4>
-                    <p class="webmaster__item--text">
-                        Наша обучающая платформа
-                        поможет тебе в короткие сроки
-                        начать зарабатывать
-                    </p>
-                </div>
-                <div class="webmaster__item">
-                    <h4 class="webmaster__item--title">Большая белая вертикаль
-                    </h4>
-                    <p class="webmaster__item--text">
-                        Легко запускать рекламные кампании
-                        и проходить модерации в различных источниках
-                    </p>
-                </div>
-                <div class="webmaster__item">
-                    <h4 class="webmaster__item--title">Менеджер всегда рядом
-                    </h4>
-                    <p class="webmaster__item--text">
-                        У тебя срочная проблема и нужно тушить пожар, или подобрать оффер, твой персональный менеджер всегда на связи
-                    </p>
-                </div>
-            </div>
-
-
-
-
         </div>
     </section>
     <section class="team">
@@ -213,7 +186,7 @@
                 </div>
                 <ul class="team__item--info">
                     <li>Профессиональный серфер</li>
-                    <li>Закодирован
+                    <li>Закодирован <br>
                         программированием</li>
                 </ul>
             </div>
@@ -229,7 +202,7 @@
                 </div>
                 <ul class="team__item--info">
                     <li>Печет тортики</li>
-                    <li>Договорится с любым веб-мастером</li>
+                    <li>Договорится <br> с любым веб-мастером</li>
                 </ul>
             </div>
             <div class="team__item">
@@ -244,7 +217,7 @@
                 </div>
                 <ul class="team__item--info">
                     <li>Знает все о полезном</li>
-                    <li>Понимает
+                    <li>Понимает <br>
                         любого заказчика</li>
                 </ul>
             </div>
@@ -261,7 +234,7 @@
                 </div>
                 <ul class="team__item--info">
                     <li>Королева дрифта</li>
-                    <li>Делает
+                    <li>Делает <br>
                         заказчиков счастливыми</li>
                 </ul>
             </div>
@@ -276,7 +249,7 @@
                     <p>Управлять временем</p>
                 </div>
                 <ul class="team__item--info">
-                    <li>Владеет "боем восьми конечностей"</li>
+                    <li>Владеет "боем восьми <br> конечностей"</li>
                     <li>Методолог от Бога</li>
                 </ul>
             </div>
@@ -362,6 +335,7 @@
     </div>
     
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <script src="js/jquery-3.7.1.min.js"></script>
 <script src="js/main.js"></script>
