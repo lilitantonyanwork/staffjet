@@ -1258,7 +1258,11 @@ footer{
      }
 
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1260px){
+    header{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
     .steps__content:after{
         right: 0;
     }
@@ -1271,6 +1275,9 @@ footer{
     footer{
         padding-left: 50px;
         padding-right: 50px;
+
+    }
+    footer .container{
         gap: 25px;
     }
     .footer__menu{
@@ -1302,6 +1309,10 @@ footer{
     }
     .clients{
         overflow: hidden;
+    }
+    .webmaster{
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
 @media screen and (max-width: 1100px){
@@ -1877,7 +1888,7 @@ footer{
         background-size: 24px;
         padding-left: 35px;
     }
-    footer{
+    footer .container{
         flex-direction: column;
     }
     .footer__copyright{
@@ -2142,6 +2153,10 @@ footer{
         right: 0;
         bottom: 150px;
     }
+    .clients__right img{
+        width: 150px;
+        height: 150px;
+    }
 
 }
 @media screen and (max-width: 600px){
@@ -2228,6 +2243,7 @@ footer{
         width: 150px;
         height: 200px;
         top: 100px!important;
+        right: 0;
     }
     .team__list{
         flex-wrap: wrap;
@@ -2312,6 +2328,34 @@ footer{
     .webmaster__item--text {
         font-size: 13px;
     }
+    .banner__links{
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .webmaster__content:before{
+        display: none;
+    }
+    .webmaster__content--center{
+        order: 2;
+    }
+    .webmaster__content--right{
+        order: 3;
+    }
+    .webmaster__content--left{
+        width: 100%;
+    }
+    .webmaster__content--right{
+        width: 100%;
+        padding-left: 55px;
+    }
+    .webmaster__content--left .webmaster__item {
+        width: 100% !important;
+    }
+    .webmaster__content--right .webmaster__item {
+        width: 100% !important;
+    }
 }
 @media screen and (max-width: 480px){
     .team__item {
@@ -2326,6 +2370,7 @@ footer{
         height: 327px;
         top: -13px;
     }
+
     .team__item--name{
         width: 100%;
         font-size: 33px;
@@ -2400,25 +2445,7 @@ footer{
     .steps{
         padding-bottom: 0;
     }
-    .webmaster__content--center{
-        order: 2;
-    }
-    .webmaster__content--right{
-        order: 3;
-    }
-    .webmaster__content--left{
-        width: 100%;
-    }
-    .webmaster__content--right{
-        width: 100%;
-        padding-left: 55px;
-    }
-    .webmaster__content--left .webmaster__item {
-        width: 100% !important;
-    }
-    .webmaster__content--right .webmaster__item {
-        width: 100% !important;
-    }
+
     .banner__link {
         width: 160px;
     }
