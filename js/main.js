@@ -50,7 +50,6 @@ $(function (){
 
     $(window).scroll(function (){
         let direction = 1;
-        console.log($(this).scrollTop());
         if( $(this).scrollTop() > 1400 ){
             direction = 1;
             zoomImage(direction);
@@ -108,4 +107,15 @@ $(function (){
         }
 
     }
+    $('.btn__dark').on('click',function (e){
+        e.preventDefault();
+        $('.popup').addClass('show');
+        $('.popup-content').addClass('fadeInBottom');
+
+    })
+    $('.btn-close').on('click',function (e){
+        e.preventDefault();
+        $('.popup').removeClass('show');
+        $('.popup-content').addClass('fadeOutBottom');
+    })
 })
